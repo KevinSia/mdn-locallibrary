@@ -73,6 +73,6 @@ DEBUG=<your-folder-name>:* npm run devstart
 ```
 
 > Note:
-	1. You'll have to use `npm run devstart` instead of `npm devstart`, because NPM has mapped the command `start` to the named script in `package.json`. We could have replaced the command `"start"` to run `nodemon ./bin/www` instead, but the command `npm start` is usually used for production to start the server and make it live, while nodemon is only used in development environment, thus it's a better idea to make a custom command for `nodemon` and leave `"start"` be.
+> 1. You'll have to use `npm run devstart` instead of `npm devstart`, because NPM has mapped the command `start` to the named script in `package.json`. We could have replaced the command `"start"` to run `nodemon ./bin/www` instead, but the command `npm start` is usually used for production to start the server and make it live, while nodemon is only used in development environment, thus it's a better idea to make a custom command for `nodemon` and leave `"start"` be.
 
-	2. It's also not a good idea to put the DEBUG variable along with the command `nodemon` in `"devstart"`, because one may want to run the server locally without the logs. Though, you could make a custom shell alias add the debug variable, or even export the debug variable in the shell initialization script (`.bashrc` or `.bash_profile` or `.zshrc`).
+> 2. It's also not a good idea to put the DEBUG variable along with the command `nodemon` in `"devstart"`, because one may want to run the server locally without the logs. Though, you could make a custom shell alias add the debug variable, or even export the debug variable in the shell initialization script (`.bashrc` or `.bash_profile` or `.zshrc`).
