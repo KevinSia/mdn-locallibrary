@@ -1,4 +1,4 @@
-# Initializing a new application
+# Initializing a new package
 
 1. run `npm init` in terminal
 	- creates a `package.json` file while prompting information about the application such as
