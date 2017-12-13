@@ -46,3 +46,5 @@ Breaking down the command:
 	- a new line with `"pug"` should be added under key `"dependencies"` in `package.json`
 	- in `app.js` file, under view engine setup, change from `app.set('view engine', 'jade');` to `app.set('view engine', 'pug');`
 
+
+> Note: The generator does not include any database. You are free to pick your desired database to use with your Express application with a database mechanism/package supported by Node

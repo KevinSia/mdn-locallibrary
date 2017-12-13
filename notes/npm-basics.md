@@ -12,6 +12,7 @@
 2. To install a package, run `npm install <package-name>` in terminal
 	- to use Express as the framework to build your web application, install Express by running `npm install express` in terminal
 	- a line will be added in `package.json` under key `"dependencies"`, with the version of Express specified
+	- the `package-lock.json` file contains the exact version of the dependencies the first time someone installs a new dependency/package in this folder.
 
 3. (optional) use EsLint package to perform analysis on your code to check if it follows a set of JS coding best practices.
 	- run `npm install eslint --save-dev` in the terminal
