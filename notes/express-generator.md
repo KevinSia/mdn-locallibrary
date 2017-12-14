@@ -14,6 +14,9 @@ By running a command (which will be shown later), it generates the following fil
 	- this is where the HTML template files will end up.
 - `bin`
 	- Folder to put binary files. Initially contains a binary file (`www`) that will be used in the terminal to start up a web server that can receive internet requests.
+- `app.js`
+	- The entry file to use for the whole application
+
 
 
 The Express Generator package should be installed in the system folder with the flag `-g`, so that it can be used again in your computer next time without having to install again.
